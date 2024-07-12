@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Codoner</title>
+    <link rel="stylesheet" href="src/css/home_style.css">
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'soc1zuz',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-06F4HF8N7W"></script>
@@ -15,6 +26,76 @@
   gtag('config', 'G-06F4HF8N7W');
 </script>
 <body>
-    
+    <header>
+        <div class="header-left">
+            <div class="header-text">
+                <h1>Codoner</h1>
+                <p class="project-description">Codon + Encoder = Codon + Protector</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Summary</a></li>
+                <li><a href="#members">Members</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="/pages/codes.html">Codes(another page)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <p>Codonerプロジェクトは、mRNAコドンの仕組みを応用した暗号化方法に関する研究です</p>
+            <p>現在 (2024/7/12)、6名の学生が当プロジェクトには参加しています</p>
+            <p>興味がある方がいらっしゃいましたら、開発チームへと招待させていただきますので、是非、<a href="https://x.com/mizuha_python" id="link">X (Twitter)</a>, <a href="https://discord.com/users/1237388614313443338" id="link">Discord</a>, あるいは<a href="mailto:citrus.mizuha@outlook.jp" id="link">Mail (citrus.mizuha@outlook.jp)</a> に、一声おかけください。</p>
+            <p>特に、<span style="color: rgb(9, 24, 160);">暗号学</span>に精通している方のご参加、お待ちしております！</p>
+        </section>
+
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>当研究は、DNAの仕組みを応用して、外的破壊や改ざんに対する耐性を暗号化方法自体に持たせることを目指しています</p><p>コドンの特性とイントロンの存在を活用し、新しい暗号化手法の開発に取り組んでいます</p>
+            <p>なお、研究のコアは、Intronによるexon部分の情報への重みバイアス付与です</p>
+        </section>
+
+        <section id="members">
+            <h2>Members</h2>
+            <p>現在、中3 : 3, 高1 : 1, 高専4年 : 1</p>
+            <table border="2">
+                <tr>
+                    <th>name</th>
+                    <th>学年</th>
+                    <th>Position</th>
+                    <th>Github</th>
+                    <th>X</th>
+                </tr>
+                <tr>
+                    <td id="klee">みずは</td>
+                    <td>中3</td>
+                    <td>発案者</td>
+                    <td><a href="https://github.com/citrus-mizuha" id="link">citrus_mizuha</a></td>
+                    <td><a href="https://x.com/mizuha_python" id="link">mizuha_python</a></td>
+                </tr>
+                <tr>
+                    <td>pik6c</td>
+                    <td>中3</td>
+                    <td>Ruster</td>
+                    <td><a href="https://github.com/pik6c" id="link">pik6c</a></td>
+                    <td><a href="https://x.com/pik6_c" id="link">pik6_c</a></td>
+                </tr>
+            </table>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+        </section>
+    </main>
+    <footer>
+        <p id="license">&copy; 2024 Codoner Project. All rights reserved.</p>
+        <p id="license"><a href="https://github.com/citrus-mizuha/Codoner" id="link">Codoner repository</a> : BSD 3-Clause License</p>
+        <p id="license"><a href="https://github.com/citrus-mizuha/youtube_materials" id="link">Mizuha's youtube_materials</a> : citrus-mizuha/youtube_materials © 2024 by mizuha is licensed under Creative Commons Attribution-NonCommercial 4.0 International</p>
+        <p></p>
+    </footer>
+    <script src="src/js/home_script.js"></script>
 </body>
 </html>

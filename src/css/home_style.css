@@ -108,4 +108,19 @@ a#link {
     font-size: 14px;
     color: rgb(190, 58, 14)
 }
+a#link:hover{
+    text-decoration: underline double;
+    font-size: 14px;
+    color: rgb(190, 58, 14)
+}
 
+p#bold{
+    font-weight: bold;
+}
+
+p#repository{
+    margin: 3px 10px 10px 10px;
+    border: 3px double #ddd;
+    padding: 8px;
+    display: inline-block;
+}

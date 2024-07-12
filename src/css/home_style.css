@@ -27,7 +27,7 @@ main {
 table {
   border-collapse: collapse;
   border: solid 2px rgb(0, 0, 0);/*表全体を線で囲う*/
-  width:500px
+  width: 700px
 }
 table th, table td {
   border: dashed 1px rgba(70, 38, 48, 0.628);/**/

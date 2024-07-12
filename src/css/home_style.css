@@ -158,3 +158,21 @@ p#repository{
     padding: 8px;
     display: inline-block;
 }
+#research h3, #research h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#research ol, #research ul {
+    margin-bottom: 15px;
+}
+
+#research p {
+    margin-bottom: 15px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #1b599b;
+}

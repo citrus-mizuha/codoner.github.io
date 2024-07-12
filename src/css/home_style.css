@@ -17,6 +17,35 @@ header a#logo{
     color:rgb(255, 255, 255)
 }
 
+a#menu {
+    position: relative;
+    display: inline-block;
+}
+
+a#menu::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    border-bottom: 2px dashed rgb(255, 255, 255);
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+}
+
+a#menu:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+a#menu:hover {
+    color: rgb(255, 255, 255);
+}
+
+
+
 body {
     margin: 0;
     padding: 0;

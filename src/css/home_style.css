@@ -1,6 +1,6 @@
 header {
-    background-color: white;
-    color: black;
+    background-color: #2F4F4F;
+    color: white;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -10,6 +10,11 @@ header {
     position: sticky;  
     top: 0;
     z-index: 1000; 
+}
+
+header a#logo{
+    text-decoration: none;
+    color:rgb(255, 255, 255)
 }
 
 body {
@@ -79,7 +84,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 main h2 {

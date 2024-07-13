@@ -55,6 +55,7 @@ body {
 main {
     padding: 10px;
     border-bottom: 1px solid rgba(0, 54, 11, 0.457);
+    background-color: white;
 }
 
 
@@ -129,6 +130,7 @@ footer {
     margin-bottom: 0px;
     margin-left: 16px;
     margin-right: 0px;
+    background-color: white;
     
 }
 
